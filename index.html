@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davlatlar Ro‘yxati</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Davlatlar Ro‘yxati</h1>
+
+    <button id="darkModeButton">Dark Mode</button>
+
+    <input type="text" id="countrySearch" placeholder="Davlatni izlang...">
+    <select id="continentSelect">
+        <option value="">Qit'a tanlang</option>
+        <option value="Europe">Yevropa</option>
+        <option value="Asia">Osiyo</option>
+        <option value="Africa">Afrika</option>
+        <option value="Oceania">Okeaniya</option>
+        <option value="Americas">Amerikalar</option>
+        <option value="Antarctic">Antarktida</option>
+    </select>
+
+    <div id="countries-container"></div>
+
+    <div id="city-info" style="display: none;">
+        <button id="backButton">Back</button>
+        <h2 id="city-name"></h2>
+        <img id="city-flag" src="" alt="Bayroq" width="100">
+        <p id="city-description"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
